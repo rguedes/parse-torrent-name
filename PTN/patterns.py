@@ -12,7 +12,7 @@ patterns = [
                  '(?:PPV )?WEB-?DL(?: DVDRip)?|HDRip|HDTVRip|DVDRip|DVDRIP|'
                  'CamRip|W[EB]BRip|BluRay|DvDScr|hdtv|telesync)')),
     ('codec', '(xvid|[hx]\.?26[45])'),
-    ('audio', ('(MP3|DD5\.?1|Dual[\- ]Audio|LiNE|DTS|DTS5\.1|'
+    ('audio', ('(MP3|DDP2\.?0|DD5\.?1|DDP5\.?1|Dual[\- ]Audio|LiNE|DTS|DTS5\.1|'
                'AAC[ \.-]LC|AAC(?:\.?2\.0)?|'
                'AC3(?:\.5\.1)?)')),
     ('group', '(- ?([^-]+(?:-={[^-]+-?$)?))$'),
